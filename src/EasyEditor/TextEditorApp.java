@@ -272,7 +272,7 @@ class TextEditorFrame extends JFrame
         }
     }
 
-    //统计不同的字符 空格换行也会统计在内
+    //统计不同的字符 空格换行也会统计在内 此处较为简单可能有错误
     public void statistics() {
         String a = text.getText();//定义字符串变量，并赋值为用户输入的信息
         int h = 0,up = 0,low = 0,n = 0,e = 0,sum = 0;//定义整型变量，用于统计字符数
